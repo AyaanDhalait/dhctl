@@ -1,86 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>dhctl</title>
-  <link rel="stylesheet" href="styles.css"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>dhctl</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <header>
-    <div class="logo">dhctl</div>
-    <nav>
-      <a href="#features">Features</a>
-      <a href="#install">Install</a>
-    </nav>
-  </header>
+<header>
+<div class="logo">dhctl</div>
+<nav>
+<a href="#features">Features</a>
+<a href="#why">Why</a>
+<a href="#install">Install</a>
+<a href="https://github.com/AyaanDhalait/dhctl-source-code">Source</a>
+</nav>
+</header>
 
-  <section class="hero">
-    <h1 class="fade">A simple CLI for developers</h1>
-    <p class="fade">
-      Manage projects, automate Git, run servers, clean files, and stay productive with one lightweight tool.
-    </p>
+<section class="hero">
+<p class="tag">CLI TOOL FOR DEVELOPERS</p>
 
-    <div class="buttons fade">
-      <a href="#install" class="btn">Get Started</a>
-      <a href="https://github.com/AyaanDhalait/dhctl-source-code" class="btn outline">GitHub</a>
-    </div>
-  </section>
+<h1>
+Build faster.<br>
+<span>Control everything with dhctl.</span>
+</h1>
 
-  <section id="features" class="section">
-    <h2 class="fade">Features</h2>
+<p class="sub">
+Initialize projects, manage Git, run servers, and analyze code with a single lightweight CLI.
+</p>
+<div class="cta">
+<code id="cmd">git clone https://github.com/AyaanDhalait/dhctl-source-code</code>
+<button onclick="copyCmd()">Copy</button>
+</div>
 
-    <div class="grid">
-      <div class="card reveal">
-        <h3>Project Init</h3>
-        <p>Create Python, Web, API projects instantly.</p>
-      </div>
+<div class="terminal">
+<div class="bar">
+<span></span><span></span><span></span>
+</div>
+<pre>
+$ dhctl deploy
 
-      <div class="card reveal">
-        <h3>Git Automation</h3>
-        <p>Commit and push code with a single command.</p>
-      </div>
+$ dhctl git --commit <file path/name> <repo-url>
 
-      <div class="card reveal">
-        <h3>Local Server</h3>
-        <p>Run files instantly using a built-in server.</p>
-      </div>
+$ printf "And Theres more!\n"
+And There's more!
+</pre>
+</div>
 
-      <div class="card reveal">
-        <h3>Cleaner</h3>
-        <p>Remove unnecessary cache and build files.</p>
-      </div>
+</section>
 
-      <div class="card reveal">
-        <h3>Analyzer</h3>
-        <p>Get file count, line count, and insights.</p>
-      </div>
+<section id="features" class="features">
+<h2>Core Features</h2>
 
-      <div class="card reveal">
-        <h3>Shortcuts</h3>
-        <p>Save and open project paths quickly.</p>
-      </div>
-    </div>
-  </section>
+<div class="grid">
+<div class="card"><h3>Init</h3><p>Instant project setup.</p></div>
+<div class="card"><h3>Git</h3><p>Fast commits and pushes.</p></div>
+<div class="card"><h3>Server</h3><p>Run projects instantly.</p></div>
+<div class="card"><h3>Clean</h3><p>Remove unnecessary files.</p></div>
+<div class="card"><h3>Analyze</h3><p>Get project insights.</p></div>
+<div class="card"><h3>Shortcuts</h3><p>Switch projects instantly.</p></div>
+</div>
+</section>
 
-  <section id="install" class="install">
-    <div class="box reveal">
-      <h2>Install dhctl</h2>
-      <p>Download the installer and start in seconds.</p>
+<section id="why" class="why">
+<h2>Why dhctl</h2>
+<div class="why-grid">
+<div><h3>Zero Setup</h3><p>No configuration needed.</p></div>
+<div><h3>All-in-One</h3><p>Everything in one CLI.</p></div>
+<div><h3>Fast</h3><p>Built for speed.</p></div>
+</div>
+</section>
 
-      <a class="download" href="dhctl/dhctlsetup.exe" download>
-        Download Installer
-      </a>
+<section id="install" class="install">
+<div class="box">
+<h2>Get Started</h2>
+<p>Download installer or view source code.</p>
+<div class="actions">
+<a href="dhctl/dhctlsetup.exe" download>Download Windows</a>
+<a href="https://github.com/AyaanDhalait/dhctl-source-code">View Source</a>
+</div>
+</div>
+</section>
 
-      <p class="note">Windows setup included</p>
-    </div>
-  </section>
+<footer>
+&copy; 2026 dhctl<br>
+made by <a href="https://www.ayaan.is-a.dev">Ayaan Dhalait</a>
+</footer>
 
-  <footer>
-    Built by Ayaan • Open Source Developer Tool
-  </footer>
-
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
