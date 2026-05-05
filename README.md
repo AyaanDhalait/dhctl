@@ -1,74 +1,50 @@
-# dhctl
+<h1 align="center" id="title">dhctl</h1>
 
-A lightweight CLI tool for developers to manage projects, automate workflows, and improve productivity from the terminal.
+<p id="description">A lightweight CLI tool for developers to manage projects automate workflows and improve productivity from the terminal.</p>
 
----
+<h2>🚀 Demo</h2>
 
-## Overview
+[https://ayaandhalait.github.io/dhctl](https://ayaandhalait.github.io/dhctl)
 
-dhctl helps you handle common development tasks like project setup, Git automation, dependency installation, local server hosting, cleanup, and project analysis.
+  
+  
+<h2>🧐 Features</h2>
 
-It also includes shortcuts and an interactive shell for faster workflows.
+Here're some of the project's best features:
 
----
+*   Project Init - Create Python Web API projects instantly.
+*   Git Automation - Commit and push code with a single command.
+*   Local Server - Run files instantly using a built-in server.
+*   Cleaner Remove - unnecessary cache and build files.
+*   Analyzer - Get file count line count and insights.
+*   Shortcuts - Save and open project paths quickly.
 
-## Features
+<h2>🛠️ Installation Steps:</h2>
 
-- Project initialization (Python, Web, API, Backend)
-- Git commit and push automation
-- Local development server launcher
-- Dependency installer (pip and npm support)
-- Project cleanup tool
-- Codebase analyzer (files, lines, largest file)
-- Shortcut system for quick path access
-- Interactive CLI mode
+<p>1. Go to the dhctl website given above</p>
 
----
+<p>2. Download the Setup file</p>
 
-## Installation
+<p>3. Install the .exe file</p>
 
-### Windows (Recommended)
+<h2>🍰 Contribution Guidelines:</h2>
 
-Download the installer:
+If you are contributing then you can do so at https://github.com/AyaanDhalait/dhctl-source-code
 
-👉 https://ayaandhalait.github.io/dhctl/dhctl/dhctlsetup.exe
+  
+  
+<h2>💻 Built with</h2>
 
-Run the downloaded `dhctlsetup.exe` and follow the setup steps.
+Technologies used in the project:
 
----
+*   python
+*   pyinstaller
+*   Inno Setup Compiler
 
-### Manual (Developer Mode)
+<h2>🛡️ License:</h2>
 
-If running from source:
+This project is licensed under the MIT License
 
-```bash
-git clone https://github.com/your-username/dhctl.git
-cd dhctl
-python dhctl.py
-Usage
+<h2>💖Like my work?</h2>
 
-Start dhctl:
-
-dhctl
-
-Type help inside the CLI to see all commands.
-
-Example Workflow
-dhctl init web
-dhctl install
-dhctl git --commit index.html https://github.com/user/repo.git
-dhctl analyze
-Requirements
-Windows (for .exe installer)
-Git installed (for Git features)
-Python 3.x (only for source mode)
-Download
-
-Official installer:
-https://ayaandhalait.github.io/dhctl/dhctl/dhctlsetup.exe
-
-Author
-
-Ayaan
-
-Full-stack developer and open-source contributor
+For project support contact : -<p>support@ayaan.is-a.dev</p>
